@@ -1,16 +1,32 @@
 # Test Strategy
 
-## Approach
-- Exploratory testing to map key flows
-- Create focused test cases for critical paths
-- Accessibility audit: keyboard navigation, headings, alt text, contrast, focus order
+## Overall Approach
+Testing was conducted using a manual, exploratory-first approach to understand the site’s structure,
+followed by targeted test cases to validate critical navigation and search behaviors.
 
-## Prioritization (Risk-based)
-- P0: blocks task completion
-- P1: major usability / severe a11y barrier
-- P2: minor usability / cosmetic
+An accessibility-first lens was applied throughout testing, informed by WCAG principles and prior
+experience in document and web accessibility remediation.
 
-## Evidence Rules
-- Only cropped screenshots of the issue area
-- No full-page content dumps
+## Testing Methods
+- Exploratory testing to identify risk areas and common user paths
+- Structured test cases for repeatability and clarity
+- Manual keyboard-only testing to assess non-mouse access
+- Heuristic accessibility review focused on navigation, structure, and feedback
 
+## QA Process
+The workflow followed a structured QA lifecycle:
+
+1. Define scope and risks
+2. Conduct exploratory testing
+3. Document test cases and findings
+4. Write reproducible bug reports
+5. Review issues and prioritize based on impact
+
+This approach is inspired by prior experience with multi-round remediation workflows
+(R1 → optional additional pass → R2 cross-checking), emphasizing independent review
+and quality verification.
+
+## Prioritization Criteria
+- **P0:** Blocks access to core navigation or information
+- **P1:** Major usability or accessibility barriers
+- **P2:** Minor usability issues or inconsistencies
