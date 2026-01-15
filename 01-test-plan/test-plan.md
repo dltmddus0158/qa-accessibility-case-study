@@ -1,20 +1,27 @@
 # Test Plan
 
 ## Objective
-Validate core user flows and accessibility basics; document issues clearly and reproducibly.
+The objective of this test plan is to verify that users can effectively navigate the CIDI website
+and access information through the global navigation menu and search functionality,
+including users who rely on keyboard navigation.
 
-## Test Environment
-- OS: macOS / Windows (if available)
-- Browsers: Chrome, Safari
-- Date: [YYYY-MM-DD]
+## Test Focus Areas
+- Discoverability and usability of global navigation
+- Dropdown menu behavior and focus management
+- Search interaction, submission behavior, and user feedback
+- Basic accessibility considerations (keyboard access, focus visibility, structure)
 
 ## Test Types
-- Smoke test (critical pages load and basic nav works)
-- Functional test (forms, search, navigation)
-- Regression check (re-test after fixes — simulated)
-- Accessibility check (keyboard, headings, contrast, alt text where applicable)
+- Exploratory testing
+- Functional testing (navigation and search)
+- Accessibility-focused manual testing
 
-## Entry / Exit Criteria
-- Entry: scope defined, environment ready
-- Exit: test cases executed, at least 2 bug reports written, audit findings summarized
+## Entry Criteria
+- Public access to the website via URL
+- Defined test scope and focus areas
+- Test environment ready
 
+## Exit Criteria
+- All planned test cases executed
+- At least two documented issues with clear reproduction steps
+- Accessibility findings summarized with recommendations
