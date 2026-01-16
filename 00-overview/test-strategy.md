@@ -30,3 +30,12 @@ and quality verification.
 - **P0:** Blocks access to core navigation or information
 - **P1:** Major usability or accessibility barriers
 - **P2:** Minor usability issues or inconsistencies
+
+## Technical Awareness
+
+While this case study focuses on manual QA, testing decisions were informed by
+an understanding of front-end behavior, including component state changes,
+DOM structure, and client-side interactions.
+
+Test scenarios consider how UI components may respond differently
+based on user input, focus state, and navigation context.
